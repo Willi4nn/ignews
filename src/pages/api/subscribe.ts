@@ -42,7 +42,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       customer: customerId,
       payment_method_types: ["card"],
       billing_address_collection: "required",
-      line_items: [{ price: "price_1LkyTWAHv2bY6jKsbWhLaxWE", quantity: 1 }],
+      line_items: [{ price: "price_1LuP3mAHv2bY6jKsWM1w2H0u", quantity: 1 }],
       mode: "subscription",
       allow_promotion_codes: true,
       success_url: process.env.STRIPE_SUCCESS_URL,
