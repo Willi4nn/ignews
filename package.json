@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "slicemachine": "start-slicemachine"
+    "slicemachine": "start-slicemachine",
+    "stripe": "stripe-cli/stripe.exe listen  --forward-to localhost:3000/api/webhooks"
   },
   "dependencies": {
     "@prismicio/client": "^6.7.1",
